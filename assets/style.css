@@ -215,3 +215,31 @@ ul a {
 .shoes-card .panda-btn {
     background: black;
 }
+
+/* contact-us-section */
+.contact-us-container {
+    background-color: #FFF2F1;
+    text-align: center;
+    padding: 50px 15px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    margin-bottom:20px: ;
+}
+
+.contact-us-container h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.input-and-btn-parent input {
+    padding: 15px 150px;
+    border: none;
+    border-radius: 10px;
+}
+.input-and-btn-parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
