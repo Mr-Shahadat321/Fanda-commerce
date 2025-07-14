@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.panda-btn {
+    border-radius: 6px;
+    background: linear-gradient(180deg,
+            rgb(255, 88, 155) -0.006%,
+            rgb(255, 19, 111) 99.994%);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    color: #FFFFFF;
+}
+
+/* nav-start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.search-parent input {
+    height: 48px;
+    width: 505px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 60px;
+    padding: 12px;
+    border: none;
+}
+
+.search-parent {
+    position: relative;
+    color: #f1f1f1;
+}
+
+.search-parent i {
+    position: absolute;
+    top: 16px;
+    right: 17px;
+    color: #bababa;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* nav-finish */
+
+/* banner-start */
+
+.banner {
+    /* width: 1212px; */
+    height: 455px;
+    background-color: #feeae9;
+    margin: 50px auto 60px auto;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.banner-img img {
+    width: 400px;
+    height: 375px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.banner-content h1 {
+    color: #1f1f1f;
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.banner-content p {
+    color: #4e4e4e;
+    font-weight: 400;
+    margin: 8px 0;
+}
+
+.banner-price {
+    color: #ff136f;
+    font-weight: 800;
+    font-size: 50px;
+    display: block;
+    margin: 8px 0;
+}
+
+/* start-categories-section */
+/* .catagories {
+    max-width: 1300px;
+    margin: auto;
+} */
+
+
+.catagories h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 24px 0 50px 30px;
+}
+
+
+.catagories-card {
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%, rgb(255, 208, 25) 84.486%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+    padding: 20px;
+    border-radius: 15px;
+    flex: 1;
+    
+
+}
+
+.catagories-card h3 {
+    font-size: 36px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.catagories-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+
+.card-2 {
+
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%, rgb(255, 19, 111) 99.994%);
+}
+
+.card-3 {
+
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%, rgb(63, 7, 248) 74.29%);
+}
+
+/* shoes-section */
+.shoes-card img{
+  height: 200px;
+  width: 330px;
+}
