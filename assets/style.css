@@ -161,7 +161,35 @@ ul a {
 }
 
 /* shoes-section */
+.shoes {
+    background: rgb(244, 244, 244);
+    margin: 50px 0;
+}
+.shoes-card-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    gap: 15px;
+    flex: 1;
+}
+.card-price {
+    display: block;
+    font-weight: 600;
+    font-size: 36px;
+    margin: 12px 0;
+
+}
+.shoes-card {
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 25px;
+    
+}
 .shoes-card img{
   height: 200px;
   width: 330px;
+}
+.shoes-card .panda-btn {
+    background: black;
 }
