@@ -119,7 +119,7 @@ ul a {
 .catagories h2 {
     font-size: 36px;
     font-weight: 600;
-    margin: 24px 0 50px 30px;
+    margin: 24px 0 50px auto;
 }
 
 
@@ -161,9 +161,13 @@ ul a {
 }
 
 /* shoes-section */
+.shoes-and-price {
+      background: rgb(244, 244, 244);
+}
+
 .shoes {
     background: rgb(244, 244, 244);
-    margin: 50px 0;
+    margin: 50px auto;
 }
 .shoes-card-container {
     display: flex;
@@ -172,6 +176,24 @@ ul a {
     gap: 15px;
     flex: 1;
 }
+
+.shoes-card-container-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    
+}
+.shoes-card-container-heading h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+.shoes-card-container-heading p {
+    color: #FF9D00;
+    font-size: 25px;
+    font-weight: 600;
+}
+
 .card-price {
     display: block;
     font-weight: 600;
